@@ -2072,6 +2072,7 @@ def plot_pdf(data, ax=None, linear_bins=False, **kwargs):
         ax.plot(bin_centers, hist, **kwargs)
     ax.set_xscale("log")
     ax.set_yscale("log")
+    plt.show()
     return ax
 
 def bisect_map(mn, mx, function, target):
